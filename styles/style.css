@@ -22,17 +22,17 @@
 
 
 /* Делаем разметку для header */
-.header { 
+.header {
     height: 293px;
     display: grid; /* .............. */
-    grid-template-columns: 1.56fr 1.8fr 1.2fr; /* разделяет блок на ячейки */
+    grid-template-columns: 1.9fr 1.5fr 1.8fr; /* разделяет блок на ячейки */
     padding: 92px 50px 96px 50px;
-    align-items: center; /* центрирует по высоте */
+    align-items: center;
 }
 /* базавая разметка для меню */
 .header_links-list {
     display: flex;
-    gap: 30px;
+    gap: 35px;
 }
 .header_links-list-item {
     line-height: 21px;
