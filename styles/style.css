@@ -44,8 +44,7 @@
 
 .header_logo {
     display: block;
-    width: 130px;
-    height: 104px;
+    height: 110px;
     margin-left: 30px;
 }
 .header_logo-image {
@@ -128,8 +127,8 @@
     flex-direction: column;
     justify-content: space-between; /* Верхний текст сверху, нижний снизу */
     gap: 48px; /* Отступы между элементами */
-    height: 100%;
-    padding: 48px 40px; /* Отступы: сверху и снизу 48px, по бокам 40px */
+    height: 596px;
+    padding: 27px 40px; /* Отступы: сверху и снизу 48px, по бокам 40px */
     background-size: cover;
     color: #FFF;
 }
@@ -146,6 +145,8 @@
     font-size: 22px;
     line-height: 26.4px;
     text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 .card_text {
     font-size: 20px;
@@ -176,6 +177,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 35px;
+    margin-left: 47px;
 }
 .about_logo-image {
     width: 184px;
@@ -195,12 +197,12 @@
 .about_title {
     padding: 0 0 100px 0;
     text-transform: uppercase;
-    line-height: 47px;
+    line-height: 45px;
     font-size: 40px;
     width: 700px;
 }
 .about_text {
-    line-height: 24px;
+    line-height: 20px;
 }
 .about_text-one {
     margin: 0 0 24px 0;
