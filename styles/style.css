@@ -25,7 +25,7 @@
 .header {
     height: 293px;
     display: grid;
-    grid-template-columns: 2fr 1fr 2fr; /* разделяет блок на ячейки */
+    grid-template-columns: 1fr 1fr 0.5fr; /* разделяет блок на ячейки */
     padding: 92px 50px 96px 50px;
     align-items: center;
 }
@@ -35,8 +35,8 @@
     gap: 40px;
 }
 .header_links-list-item {
-    line-height: 21.15px;
-    word-spacing: 15px;
+    line-height: 22px;
+    word-spacing: 14px;
 }
 .header_links-list-item:first-child {
     list-style: none; /* Убираем кружок у первого элемента */
@@ -46,7 +46,7 @@
     display: block;
     width: 148px;
     height: 105px;
-    margin-left: 40px;
+    margin-left: 35px;
 }
 .header_logo-image {
     width: 100%;
@@ -56,7 +56,7 @@
     height: 98px;
     justify-self: end;
     line-height: 24px;
-    margin-left: 150px;
+    margin-left: 0px;
 }
 /*-----конец_header-----*/
 
@@ -87,7 +87,7 @@
 .cover_description {
     display: flex;
     align-items: center;
-    padding: 106px 0 0;
+    padding-top: 120px;
     font-size: 22px;
     text-transform: uppercase;
     word-spacing: 21px; /* Отступ между словами */
@@ -104,12 +104,13 @@
 
 /*-----секция_lots----- */
 .lots {
+    height: 723px;
     padding: 180px 24px 0 24px;
 }
 
 .lots_header {
     padding: 0 40px 27px 40px;
-    font-size: 40px;           
+    font-size: 40px;
     text-transform: uppercase; /* Заглавные буквы */
 }
 
@@ -130,15 +131,12 @@
     color: #FFF;
 }
 .card_type_film {
-    height: 600px;
     background-image: url(../images/card-lot-01.jpg);
 }
 .card_type_book {
-    height: 600px;
     background-image: url(../images/card-lot-02.jpg);
 }
 .card_type_picture {
-    height: 600px;
     background-image: url(../images/card-lot-03.jpg);
 }
 .card_title {
