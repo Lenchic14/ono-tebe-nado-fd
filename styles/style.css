@@ -24,8 +24,8 @@
 /* Делаем разметку для header */
 .header {
     height: 293px;
-    display: grid; /* .............. */
-    grid-template-columns: 1.9fr 1.5fr 1.8fr; /* разделяет блок на ячейки */
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr; /* разделяет блок на ячейки */
     padding: 92px 50px 96px 50px;
     align-items: center;
 }
@@ -35,7 +35,7 @@
     gap: 40px;
 }
 .header_links-list-item {
-    line-height: 21.13px;
+    line-height: 21.15px;
 }
 .header_links-list-item:first-child {
     list-style: none; /* Убираем кружок у первого элемента */
@@ -55,6 +55,7 @@
     height: 98px;
     justify-self: end;
     line-height: 24px;
+    margin-left: 150px;
 }
 /*-----конец_header-----*/
 
@@ -118,6 +119,7 @@
     list-style: none;
 }
 .card {
+    height: 596px;
     display: flex;
     flex-direction: column;
     justify-content: space-between; /* Верхний текст сверху, нижний снизу */
