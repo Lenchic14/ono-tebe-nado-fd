@@ -36,6 +36,7 @@
 }
 .header_links-list-item {
     line-height: 21.15px;
+    word-spacing: 15px;
 }
 .header_links-list-item:first-child {
     list-style: none; /* Убираем кружок у первого элемента */
@@ -119,7 +120,6 @@
     list-style: none;
 }
 .card {
-    height: 596px;
     display: flex;
     flex-direction: column;
     justify-content: space-between; /* Верхний текст сверху, нижний снизу */
@@ -130,12 +130,15 @@
     color: #FFF;
 }
 .card_type_film {
+    height: 600px;
     background-image: url(../images/card-lot-01.jpg);
 }
 .card_type_book {
+    height: 600px;
     background-image: url(../images/card-lot-02.jpg);
 }
 .card_type_picture {
+    height: 600px;
     background-image: url(../images/card-lot-03.jpg);
 }
 .card_title {
