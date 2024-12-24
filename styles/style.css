@@ -35,7 +35,7 @@
     gap: 35px;
 }
 .header_links-list-item {
-    line-height: 21px;
+    line-height: 21.13px;
 }
 .header_links-list-item:first-child {
     list-style: none; /* Убираем кружок у первого элемента */
@@ -45,13 +45,14 @@
     display: block;
     width: 148px;
     height: 105px;
+    margin-left: 36.52px;
 }
 .header_logo-image {
     width: 100%;
-    margin-left: 36.52px;
 }
 
 .header-address {
+    height: 98px;
     justify-self: end;
     line-height: 24px;
 }
