@@ -193,12 +193,10 @@
     width: 693px;
     height: 449px;
     position: absolute; /* Абсолютное позиционирование */
-    bottom: 0; /* Привязка к нижнему краю секции */
     right: 0;
-    box-sizing: border-box; /* Учитываем паддинги в ширину и высоту */
     display: flex; /* Используем Flexbox */
     flex-direction: column; /* Располагаем элементы по вертикали */
-    justify-content: flex-end; /* Прижимаем содержимое к нижнему краю */
+    margin-top: 133px;
 }
 .about_title {
     padding: 0 0 100px 0;
