@@ -33,10 +33,10 @@
 .header_links-list {
     display: flex;
     gap: 40px;
+    letter-spacing: 1px; /* Устанавливает расстояние между буквами */
 }
 .header_links-list-item {
-    line-height: 25px;
-    word-spacing: 14px;
+    line-height: 30px;
 }
 .header_links-list-item:first-child {
     list-style: none; /* Убираем кружок у первого элемента */
@@ -53,10 +53,11 @@
 }
 
 .header-address {
-    width: 240px;
+    width: 230px;
     height: 98px;
     justify-self: end;
     line-height: 24px;
+    letter-spacing: 1px;
 }
 /*-----конец_header-----*/
 
