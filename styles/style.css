@@ -44,7 +44,8 @@
 
 .header_logo {
     display: block;
-    height: 110px;
+    height: 105px;
+    width: 148px;
     margin-left: 30px;
 }
 .header_logo-image {
@@ -86,7 +87,8 @@
 
 .cover_description {
     align-items: center;
-    margin-top: 110px;
+    margin-left: 50px;
+    margin-top: 130px;
     font-size: 22px;
     text-transform: uppercase;
     word-spacing: 21px; /* Отступ между словами */
@@ -110,24 +112,12 @@
     margin-top: 180px;
 }
 
-.lots_header {
-    padding: 0 40px 27px 40px;
-    font-size: 40px;
-    text-transform: uppercase; /* Заглавные буквы */
-}
-
-.lots_card-list {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 25px; /* Отступ между карточками 25px */
-    list-style: none;
-}
 .card {
     display: flex;
     flex-direction: column;
     justify-content: space-between; /* Верхний текст сверху, нижний снизу */
     gap: 48px; /* Отступы между элементами */
-    height: 596px;
+    height: 600px;
     padding: 27px 40px; /* Отступы: сверху и снизу 48px, по бокам 40px */
     background-size: cover;
     color: #FFF;
@@ -147,6 +137,19 @@
     text-decoration: underline;
     text-transform: uppercase;
     letter-spacing: 1px;
+}
+
+.lots_header {
+    padding: 0 40px 27px 40px;
+    font-size: 40px;
+    text-transform: uppercase; /* Заглавные буквы */
+}
+
+.lots_card-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px; /* Отступ между карточками 25px */
+    list-style: none;
 }
 .card_text {
     font-size: 20px;
@@ -176,7 +179,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 35px;
+    margin-top: 30px;
     margin-left: 47px;
 }
 .about_logo-image {
@@ -185,7 +188,7 @@
 }
 .about_column_text {
     width: 693px;
-    height: 312px;
+    height: 449px;
     position: absolute; /* Абсолютное позиционирование */
     bottom: 0; /* Привязка к нижнему краю секции */
     right: 0;
